@@ -27,6 +27,14 @@
 }
 .chart_content{
     flex: 70%;
+    flex-direction: row;
+}
+.chart {
+    width: 200px;
+    height: 200px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+
 }
 .score_content{
     flex: 30%;
