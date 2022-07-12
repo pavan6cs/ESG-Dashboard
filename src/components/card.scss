@@ -1,0 +1,20 @@
+/** card style: start **/
+.card_section{
+    display: flex;
+    margin: 30px;
+  }
+  .card_section--one,
+  .card_section--two{
+    flex-basis: 50%;
+    padding: 15px;
+  }
+  .card_section--one{
+    background-color: #fff;
+  }
+  .card_section--two{
+   background-color: #E7E7E7;
+  }
+  .card_description {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
