@@ -22,7 +22,8 @@ const Sidebar = ({ children }) => {
     <div className="container">
       <div className="sidebar">
         <div className="top_section">
-          <h1 className="logo">Logo</h1>
+          <img src="/esg-ai-logo.png" className="logo-img" aria-label="logo"></img>
+          <h2 className="logo">ESG-MT</h2>
         </div>
         {menuItem.map((item, index) => (
           <NavLink

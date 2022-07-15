@@ -6,6 +6,11 @@
       row-gap: 25px;
   
   }
+  .logo-img{
+    margin: 15px 15px 0px 15px;
+    width: 90px;
+    height: 90px;
+  }
   .logo{
     margin: 15px;
   }
@@ -29,4 +34,8 @@
   }
   .menu{
     width: 100%; 
+  }
+  .active{
+    color:red;
+    background-color: rgb(90, 84, 84);
   }

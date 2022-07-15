@@ -29,13 +29,7 @@
     flex: 70%;
     flex-direction: row;
 }
-.chart {
-    width: 200px;
-    height: 200px;
-    margin-top: 2rem;
-    margin-left: 2rem;
 
-}
 .score_content{
     flex: 30%;
 }
@@ -69,4 +63,7 @@
 }
 .score_box-three{   
     background-color: #56E9F2; 
+}
+.drawerContent{
+    width: 450px;
 }
