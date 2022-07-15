@@ -35,6 +35,7 @@ const data = {
 const DoughnutChartCustome = (props) => {
     return (
         <Doughnut data={data} options={options}  />
+        
     )
 }
 
