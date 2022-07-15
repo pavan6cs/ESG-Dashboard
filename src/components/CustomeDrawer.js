@@ -21,7 +21,10 @@ const CustomeDrawer = (props) => {
                     getElementByid(props.index).length > 0 ? toTitleCase(getElementByid(props.index)[0].name) : "sample"
                 }
             </Typography>
-            <CustomeTab style={{ marginTop: "1rem", marginLeft: "0.5rem" }} data={getElementByid(props.index)[0]}/>
+            <CustomeTab style={{ marginTop: "1rem", marginLeft: "0.5rem" }} 
+            data={getElementByid(props.index)[0]}
+            allScores={props.data}
+            />
             {console.log(getElementByid(props.index), props.index)
             }
 

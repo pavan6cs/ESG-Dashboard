@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import axios from 'axios'
 import Drawer from '@mui/material/Drawer';
 import CustomeDrawer from '../components/CustomeDrawer';
+import CustomeBarChart from '../components/CustomeBarChart'
 
 
 
@@ -14,7 +15,7 @@ const PortfolioOverview = () => {
   const [totalScore, setTotalScore] = useState({ total: 0, E: 0, S: 0, G: 0 });
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [drawerIndex, setDrawerIndex] = useState(0);
-
+  const dowJhones = [65, 72, 63, 60]
   const toggleDrawer = (index) => {
     console.log(index)
     setDrawerIndex(index);
@@ -47,7 +48,7 @@ const PortfolioOverview = () => {
         return data;
       });
       let object = {
-        total: (E / scores.length) + (S / scores.length) + (G / scores.length),
+        total: ((E / scores.length) + (S / scores.length) + (G / scores.length)) / 3,
         E: E / scores.length,
         S: S / scores.length,
         G: G / scores.length
@@ -74,18 +75,20 @@ const PortfolioOverview = () => {
       <h4>Diversified Portfolio <span className="count_value">{scores.length}</span></h4>
       <div className="layout">
         <div className="section_one">
-          <h5>Total ESG Score</h5>
+          <Typography variant="h5" component="h5">
+            Total ESG Score
+          </Typography>
 
           <div className='chart_container'>
             <div className='chart_content'>
 
-              <DoughnutChartCustome data={(totalScore.total.toFixed(2) / 3).toFixed(2)}  marginTop="2rem" marginLeft="2rem" width="200px" height="200px" />
+              <DoughnutChartCustome data={(totalScore.total.toFixed(2) / 3).toFixed(2)} marginTop="2rem" marginLeft="2rem" width="200px" height="200px" />
 
             </div>
             <div className='score_content'>
               <div className='score_heading'>
                 <h6>ESG Score</h6>
-                <small>{(totalScore.total.toFixed(2) / 3).toFixed(2)}</small>
+                <small>{totalScore.total.toFixed(2)}</small>
               </div>
               <div className='score_values'>
                 <div className='score_value-sec'>
@@ -114,6 +117,16 @@ const PortfolioOverview = () => {
 
             </div>
           </div>
+          <hr style={{ marginTop: "1rem", marginBottom: "0.5rem" }}></hr>
+          <Typography variant="h5" component="h4">
+            BenchMark Comparision
+          </Typography>
+
+          <div className="barChart">
+            <CustomeBarChart dataSet1={dowJhones}
+              dataSet2={[Math.random(totalScore.total), Math.random(totalScore.E), Math.random(totalScore.S), Math.random(totalScore.G)]} />
+          </div>
+
         </div>
         <div className="section_two">
           <Typography variant="h5" component="h4">

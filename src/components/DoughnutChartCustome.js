@@ -42,10 +42,14 @@ const DoughnutChartCustome = (props) => {
     data.datasets[0].data = val;
     options.centerText.value = props.data;
     return (
-        <><div style={{ width: props.width, height: props.height, marginTop: props.marginTop,
-         marginLeft:props.marginLeft}} >
-            <Doughnut data={data} options={options} />
-        </div></>
+        <>
+            <div style={{
+                width: props.width, height: props.height, marginTop: props.marginTop,
+                marginLeft: props.marginLeft
+            }} >
+                <Doughnut data={data} options={options} />
+            </div>
+        </>
     )
 }
 

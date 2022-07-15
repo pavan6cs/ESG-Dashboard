@@ -1,16 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import sidebar from './sidebar.scss'
+import Avatar from '@mui/material/Avatar';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const Sidebar = ({ children }) => {
   const menuItem = [
     {
       path: "/",
       name: "Portfolio overview",
-    },
-    {
-      path: "/report",
-      name: "Report",
     },
     {
       path: "/simulation",
@@ -35,8 +33,14 @@ const Sidebar = ({ children }) => {
             <div className="link_text">{item.name}</div>
           </NavLink>
         ))}
+        <ArrowForwardIcon color="primary" style={{ float: "right", left:"20vh",top: "85vh",position:"absolute" ,fontSize:"24px"}} />
+
+        <Avatar alt="pavan" src="/pavan.jpg" className="profilePic" />
+
       </div>
+
       <main className="mainmenu">{children}</main>
+
     </div>
   );
 };

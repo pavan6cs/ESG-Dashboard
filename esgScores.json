@@ -1,226 +1,300 @@
 {
     "esgScores": [
-        {   
+        {
             "name": "consolidated edison",
             "E": 50.125932549999995,
             "S": 50.0370493,
-            "G": 50.048938899999996
+            "G": 50.048938899999996,
+            "time": "12 min",
+            "news": "Change the Consolidated Edison Stock Strategy to Suit the..."
         },
         {
             "name": "microsoft",
             "E": 50.03919815,
             "S": 50.0903518,
-            "G": 50.00708185
+            "G": 50.00708185,
+            "time": "10 min",
+            "news": "Change the Microsoft Stock Strategy to Suit the..."
         },
         {
             "name": "lockheed martin",
             "E": 49.9849836,
             "S": 49.96516125,
-            "G": 50.02700425
+            "G": 50.02700425,
+            "time": "12 min",
+            "news": "Change the Lockheed Martin Strategy to Suit the..."
         },
         {
             "name": "twitter",
             "E": 49.89836255,
             "S": 49.97000625,
-            "G": 49.9709477
+            "G": 49.9709477,
+            "time": "8 min",
+            "news": "Change the Twitter Strategy to Suit the..."
         },
         {
             "name": "alphabet",
             "E": 49.68695365,
             "S": 49.75793745,
-            "G": 49.85765035
+            "G": 49.85765035,
+            "time": "12 min",
+            "news": "Change the Alphabet Strategy to Suit the..."
         },
         {
             "name": "duke",
             "E": 50.222491749999996,
             "S": 50.188283850000005,
-            "G": 50.2454272
+            "G": 50.2454272,
+            "time": "06 min",
+            "news": "Change the duke Strategy to Suit the..."
         },
         {
             "name": "netflix",
             "E": 49.64512305,
             "S": 50.1159467,
-            "G": 49.918497699999996
+            "G": 49.918497699999996,
+            "time": "12 min",
+            "news": "Change the netflix Strategy to Suit the..."
         },
         {
             "name": "micron technology",
             "E": 50.0691161,
-            "S": 50.0464082,
-            "G": 50.03334985
+            "S": 70.0464082,
+            "G": 56.03334985,
+            "time": "12 min",
+            "news": "Change the micron technology Strategy to Suit the..."
         },
         {
             "name": "mckesson",
             "E": 49.6313989,
             "S": 49.860069,
-            "G": 49.6437419
+            "G": 49.6437419,
+            "time": "12 min",
+            "news": "Change the mckesson Strategy to Suit the..."
         },
         {
             "name": "goldman sachs",
             "E": 49.988007,
             "S": 50.05552625000001,
-            "G": 50.014437199999996
+            "G": 50.014437199999996,
+            "time": "22 min",
+            "news": "Change the goldman sachs Strategy to Suit the..."
         },
         {
             "name": "ford motor",
             "E": 49.69146205,
             "S": 50.05704715,
-            "G": 49.802770699999996
+            "G": 49.802770699999996,
+            "time": "12 min",
+            "news": "Change the ford motor Strategy to Suit the..."
         },
         {
             "name": "conocophillips",
             "E": 50.02205545,
             "S": 50.05934925,
-            "G": 49.98279715
+            "G": 49.98279715,
+            "time": "10 min",
+            "news": "Change the conocophillips Strategy to Suit the..."
         },
         {
             "name": "starbucks",
             "E": 49.9729294,
             "S": 49.99400465,
-            "G": 50.13110985
+            "G": 50.13110985,
+            "time": "12 min",
+            "news": "Change the starbucks Strategy to Suit the..."
         },
         {
             "name": "tesla",
             "E": 49.840040450000004,
             "S": 49.845488249999995,
-            "G": 50.0627937
+            "G": 50.0627937,
+            "time": "13 min",
+            "news": "Change the tesla Strategy to Suit the..."
         },
         {
             "name": "johnson controls",
             "E": 50.434335850000004,
             "S": 50.45796435,
-            "G": 50.440689500000005
+            "G": 50.440689500000005,
+            "time": "12 min",
+            "news": "Change the johnson controls Strategy to Suit the..."
         },
         {
             "name": "accenture",
             "E": 50.32430165,
             "S": 50.25899275,
-            "G": 50.1398357
+            "G": 50.1398357,
+            "time": "16 min",
+            "news": "Change the accenture Strategy to Suit the..."
         },
         {
             "name": "devon",
             "E": 50.022340750000005,
             "S": 50.0459693,
-            "G": 50.02869439999999
+            "G": 50.02869439999999,
+            "time": "12 min",
+            "news": "Change the devon Strategy to Suit the..."
         },
         {
             "name": "blackrock",
             "E": 50.20071265,
             "S": 50.06344965,
-            "G": 49.97877965
+            "G": 49.97877965,
+            "time": "15 min",
+            "news": "Change the blackrock Strategy to Suit the..."
         },
         {
             "name": "pfizer",
             "E": 50.06279295,
             "S": 50.091694649999994,
-            "G": 50.01070185
+            "G": 50.01070185,
+            "time": "12 min",
+            "news": "Change the pfizer Strategy to Suit the..."
         },
         {
             "name": "electronic arts",
             "E": 49.9144865,
             "S": 49.938114999999996,
-            "G": 49.920840150000004
+            "G": 49.920840150000004,
+            "time": "12 min",
+            "news": "Change the electronic arts Strategy to Suit the..."
         },
         {
             "name": "cummins",
             "E": 50.1933151,
             "S": 50.142633550000006,
-            "G": 50.152181
+            "G": 50.152181,
+            "time": "12 min",
+            "news": "Change the cummins Strategy to Suit the..."
         },
         {
             "name": "xcel",
             "E": 50.59894435,
             "S": 50.67378175,
-            "G": 50.5554038
+            "G": 50.5554038,
+            "time": "12 min",
+            "news": "Change the xcel Strategy to Suit the..."
         },
         {
             "name": "walmart",
             "E": 50.007036400000004,
             "S": 49.9909811,
-            "G": 50.08310195
+            "G": 50.08310195,
+            "time": "12 min",
+            "news": "Change the walmart Strategy to Suit the..."
         },
         {
             "name": "kroger",
             "E": 49.99334285,
             "S": 50.0800225,
-            "G": 50.06592765
+            "G": 50.06592765,
+            "time": "12 min",
+            "news": "Change the kroger Strategy to Suit the..."
         },
         {
             "name": "exxon mobil",
             "E": 50.0097109,
             "S": 49.9470407,
-            "G": 49.9551933
+            "G": 49.9551933,
+            "time": "12 min",
+            "news": "Change the exxon mobil Strategy to Suit the..."
         },
         {
             "name": "arista networks",
             "E": 50.1933151,
             "S": 50.26429890000001,
-            "G": 50.24691415
+            "G": 50.24691415,
+            "time": "12 min",
+            "news": "Change the arista networks Strategy to Suit the..."
         },
         {
             "name": "occidental petroleum",
             "E": 49.98868085,
             "S": 50.10430385,
-            "G": 50.003775
+            "G": 50.003775,
+            "time": "12 min",
+            "news": "Change the occidental petroleum Strategy to Suit the..."
         },
         {
             "name": "dominion",
             "E": 50.2232008,
             "S": 49.7478298,
-            "G": 49.97392455
+            "G": 49.97392455,
+            "time": "12 min",
+            "news": "Change the dominion Strategy to Suit the..."
         },
         {
             "name": "digital realty",
             "E": 50.1933151,
             "S": 50.26429890000001,
-            "G": 50.24691415
+            "G": 50.24691415,
+            "time": "12 min",
+            "news": "Change the digital realty Strategy to Suit the..."
         },
         {
             "name": "citigroup",
             "E": 49.66251,
             "S": 50.076299950000006,
-            "G": 49.76905085
+            "G": 49.76905085,
+            "time": "12 min",
+            "news": "Change the citigroup Strategy to Suit the..."
         },
         {
             "name": "chevron",
             "E": 50.17205275,
             "S": 50.15772315,
-            "G": 50.11486945
+            "G": 50.11486945,
+            "time": "12 min",
+            "news": "Change the chevron Strategy to Suit the..."
         },
         {
             "name": "cisco systems",
             "E": 50.128054,
             "S": 50.1111586,
-            "G": 50.090471449999995
+            "G": 50.090471449999995,
+            "time": "12 min",
+            "news": "Change the cisco systems Strategy to Suit the..."
         },
         {
             "name": "boeing",
             "E": 50.0709731,
             "S": 50.047851249999994,
-            "G": 49.7428153
+            "G": 49.7428153,
+            "time": "12 min",
+            "news": "Change the boeing Strategy to Suit the..."
         },
         {
             "name": "honeywell",
             "E": 50.04342345,
             "S": 50.067052000000004,
-            "G": 50.0497771
+            "G": 50.0497771,
+            "time": "15 min",
+            "news": "Change the honeywell Strategy to Suit the..."
         },
         {
             "name": "morgan stanley",
             "E": 50.15889375,
             "S": 49.97857865,
-            "G": 49.96719845
+            "G": 49.96719845,
+            "time": "12 min",
+            "news": "Change the morgan stanley Strategy to Suit the..."
         },
         {
             "name": "caterpillar",
             "E": 50.1419063,
             "S": 50.100094750000004,
-            "G": 50.124793749999995
+            "G": 50.124793749999995,
+            "time": "13 min",
+            "news": "Change the caterpillar Strategy to Suit the..."
         },
         {
             "name": "oracle",
             "E": 50.1933151,
             "S": 50.06081335,
-            "G": 49.969214449999996
+            "G": 49.969214449999996,
+            "time": "11 min",
+            "news": "Change the oracle Strategy to Suit the..."
         }
     ]
 }

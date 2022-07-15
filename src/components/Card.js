@@ -21,13 +21,13 @@ const Card = (props) => {
     <>
       <div className="card_section" onClick={() => handleClick(props.data.id)}>
         <div className="card_section--one">
-        <Typography variant="h5" component="h5">
-        {toTitleCase(props.data.name)}
+          <Typography variant="h5" component="h5">
+            {toTitleCase(props.data.name)}
           </Typography>
-        
+
           <div className="chart_sec">
             <div className="chart_img">
-              <DoughnutChartCustome data={props.data.total.toFixed(2)} width="80px" height="80px" marginTop="2rem" marginLeft="2rem"/>
+              <DoughnutChartCustome data={props.data.total.toFixed(2)} width="80px" height="80px" marginTop="2rem" marginLeft="2rem" />
             </div>
             <div className="chart_value">
               <p>Influence <span className="influence_value">{props.data.influence.toFixed(2)}</span></p>
@@ -37,11 +37,10 @@ const Card = (props) => {
         </div>
         <div className="card_section--two">
           <div className="card_heading">
-            <small>12 mins ago</small>
+            <small>{props.data.time}</small>
           </div>
           <div className="card_description">
-            <h3>Change the Exxon Mobil Stock Strategy to
-              Suit the New
+            <h3>{props.data.news}
             </h3>
           </div>
           <div className="card_footer">
